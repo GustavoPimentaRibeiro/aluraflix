@@ -1,6 +1,6 @@
 # AluraFlix
 
-![Badge Incompleto](http://img.shields.io/static/v1?label=STATUS&message=INCOMPLETO&color=YELLOW&style=for-the-badge)
+![Badge Incompleto](http://img.shields.io/static/v1?label=STATUS&message=INCOMPLETO&color=RED&style=for-the-badge)
 ![Badge React](https://img.shields.io/badge/React-93BEE6)
 ![Badge JavaScript](https://img.shields.io/badge/JavaScript-E7E40E)
 ![Badge HTML5](https://img.shields.io/badge/HTML5-D46114)
