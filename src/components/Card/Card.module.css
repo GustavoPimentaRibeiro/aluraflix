@@ -1,0 +1,33 @@
+.card {
+  width: 430px;
+  height: 330px;
+}
+
+.imagemContainer {
+  width: 422px;
+  height: 250px;
+
+  border-radius: 4px 4px 0 0;
+}
+
+.imagem {
+  width: 422px;
+  height: 250px;
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 380px;
+    height: 320px;
+  }
+
+  .imagem {
+    width: 372px;
+    height: 240px;
+  }
+
+  .imagemContainer {
+    width: 372px;
+    height: 240px;
+  }
+}

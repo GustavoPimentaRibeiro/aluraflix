@@ -1,0 +1,6 @@
+@media (max-width: 480px) {
+  .app {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,27 @@
+.categoria {
+  width: 432px;
+  height: 70px;
+
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 15px;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .categoria {
+    width: 286px;
+
+    font-size: 24px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}

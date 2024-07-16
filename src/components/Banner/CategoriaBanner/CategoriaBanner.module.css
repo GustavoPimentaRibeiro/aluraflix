@@ -1,0 +1,21 @@
+.categoriaBanner {
+  width: 295px;
+  height: 90px;
+
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .categoriaBanner {
+    width: 250px;
+    font-size: 42px;
+  }
+}

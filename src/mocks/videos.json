@@ -1,0 +1,58 @@
+{
+  "cards": [
+    {
+      "id": "1",
+      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw",
+      "imagem": "https://i.ytimg.com/vi/ZY3-MFxVdEw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBNCNLYCgSJ2SPQ_WnyeaCRzu5wcw",
+      "categoria": "FRONT END"
+    },
+    {
+      "id": "2",
+      "url": "https://www.youtube.com/watch?v=Lj2fDY4UayY",
+      "imagem": "https://i.ytimg.com/vi/Lj2fDY4UayY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBm5uDqgMdRYRCHU6p2p-KLpySDWw",
+      "categoria": "FRONT END"
+    },
+    {
+      "id": "3",
+      "url": "https://www.youtube.com/watch?v=FJhMCi07T4A",
+      "imagem": "https://i.ytimg.com/vi/FJhMCi07T4A/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBP8DAdGqLofH4EA99Y268ekWTjcA",
+      "categoria": "FRONT END"
+    },
+    {
+      "id": "4",
+      "url": "https://www.youtube.com/watch?v=wXMlMsDvk2M",
+      "imagem": "https://i.ytimg.com/vi/wXMlMsDvk2M/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCfdpb9fUrOwfQoAKGY_-U3NNKk6A",
+      "categoria": "BACK END"
+    },
+    {
+      "id": "5",
+      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY",
+      "imagem": "https://i.ytimg.com/vi/6o6-bKOZOEY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAH9aOkTTx_W0zfCIcLKiazvfnrgg",
+      "categoria": "BACK END"
+    },
+    {
+      "id": "6",
+      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w",
+      "imagem": "https://i.ytimg.com/vi/Uh-GNH-t89w/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAtij9Din6cYfv89Zj0kMtQgm9fJA",
+      "categoria": "BACK END"
+    },
+    {
+      "id": "7",
+      "url": "https://www.youtube.com/watch?v=fWscDFHKgw8",
+      "imagem": "https://i.ytimg.com/vi/fWscDFHKgw8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAGWxeg1S9RgOFxwlcvrHHXb4lbFA",
+      "categoria": "MOBILE"
+    },
+    {
+      "id": "8",
+      "url": "https://www.youtube.com/watch?v=52El0EUI6D0",
+      "imagem": "https://i.ytimg.com/vi/52El0EUI6D0/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAN0Xi6cdYzLBiFk9QvnpUP1bs77w",
+      "categoria": "MOBILE"
+    },
+    {
+      "id": "9",
+      "url": "https://www.youtube.com/watch?v=xSC8j3gl7xM",
+      "imagem": "https://i.ytimg.com/vi/xSC8j3gl7xM/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAR6eRnsEd7PB3eu8F6Axem-Qj0dw",
+      "categoria": "MOBILE"
+    }
+  ]
+}

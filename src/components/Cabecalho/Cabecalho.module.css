@@ -1,0 +1,36 @@
+.cabecalho {
+  height: 125px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 4px solid var(--cor-secundaria);
+  box-shadow: 0px 5px 29px 0px #2271d1b2;
+  background-color: rgba(0, 0, 0, 0.9);
+
+  padding: 0 51.15px;
+}
+
+.botoesContainer {
+  display: flex;
+  gap: 25px;
+}
+
+@media (max-width: 480px) {
+  .cabecalho {
+    border-bottom: none;
+    border-top: 4px solid var(--cor-secundaria);
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .botoesContainer {
+    gap: 30px;
+  }
+}
