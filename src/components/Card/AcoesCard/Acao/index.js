@@ -1,5 +1,5 @@
 import styles from "./Acao.module.css";
-import { useVideosContext } from "Hooks/useVideosContext";
+import { useVideosContext } from "hooks/useVideosContext";
 
 function Acao({ acao, id, iconeAcao, children }) {
   const { editarVideo, deletarVideo } = useVideosContext();

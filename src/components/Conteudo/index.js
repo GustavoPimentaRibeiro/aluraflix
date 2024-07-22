@@ -5,6 +5,7 @@ import Card from "components/Card";
 import { useContext } from "react";
 import { VideosContext } from "context/VideosContext";
 import { TimesContext } from "context/TimesContext";
+import ModalEditar from "components/ModalEditar";
 
 function Conteudo() {
   const { times } = useContext(TimesContext);
@@ -29,6 +30,7 @@ function Conteudo() {
           </section>
         );
       })}
+      <ModalEditar />
     </div>
   );
 }

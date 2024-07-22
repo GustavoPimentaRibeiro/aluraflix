@@ -1,0 +1,22 @@
+.botao {
+  width: 180px;
+
+  font-family: var(--fonte-secundaria);
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  color: var(--cor-fonte);
+
+  border-radius: 10px;
+  border: 2px solid var(--cor-tercearia);
+  background-color: rgba(0, 0, 0, 0.9);
+
+  padding: 11px 0;
+  cursor: pointer;
+}
+
+.ativo {
+  color: var(--cor-secundaria);
+  box-shadow: 0px 0px 12px 4px var(--cor-secundaria) inset;
+  border: 2px solid var(--cor-secundaria);
+}

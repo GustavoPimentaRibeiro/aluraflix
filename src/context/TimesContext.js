@@ -3,6 +3,7 @@ import { createContext, useEffect, useState } from "react";
 import timeDados from "../mocks/times.json";
 
 export const TimesContext = createContext();
+TimesContext.displayName = "Times";
 
 export const TimesProvider = ({ children }) => {
   const [times, setTimes] = useState([]);

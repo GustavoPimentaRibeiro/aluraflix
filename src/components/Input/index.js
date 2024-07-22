@@ -1,6 +1,12 @@
 import styles from "./Input.module.css";
 
-function Input({ type = "text", label, name, placeholder }) {
+function Input({
+  type = "text",
+  bordaAzul = false,
+  label,
+  name,
+  placeholder = "",
+}) {
   return (
     <div className={styles.container}>
       <label className={styles.label}>{label}</label>
@@ -12,6 +18,9 @@ function Input({ type = "text", label, name, placeholder }) {
           name={name}
           placeholder={placeholder}
           className={styles.input}
+          {...(bordaAzul
+            ? { style: { borderColor: "#6BD1FF" } }
+            : { style: { borderColor: "#262626" } })}
         />
       ) : (
         <input
@@ -19,6 +28,9 @@ function Input({ type = "text", label, name, placeholder }) {
           name={name}
           placeholder={placeholder}
           className={styles.input}
+          {...(bordaAzul
+            ? { style: { borderColor: "#6BD1FF" } }
+            : { style: { borderColor: "#262626" } })}
         />
       )}
     </div>

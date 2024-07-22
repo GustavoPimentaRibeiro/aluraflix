@@ -2,18 +2,18 @@ import { useContext } from "react";
 import { VideosContext } from "../context/VideosContext";
 
 export const useVideosContext = () => {
-  const { videos } = useContext(VideosContext);
+  const { videos, setVideos } = useContext(VideosContext);
 
   function editarVideo(id) {
-    const video = videos.filter((video) => video.id === id);
+    const videoAlterado = videos.filter((video) => video.id === id);
 
-    console.log(video);
+    console.log(videoAlterado);
   }
 
   function deletarVideo(id) {
-    const novosVideos = videos.filter((video) => video.id !== id);
-
-    console.log(novosVideos);
+    setVideos((videosAntigos) =>
+      videosAntigos.filter((video) => video.id !== id)
+    );
   }
 
   return {

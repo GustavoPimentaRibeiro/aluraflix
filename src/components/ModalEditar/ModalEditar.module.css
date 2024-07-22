@@ -1,9 +1,33 @@
 .modalContainer {
-  position: relative;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 75%;
 
   display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 84px 200px;
+  background-color: #03122f;
+  border: 5px solid #6bd1ff;
+  border-radius: 15px;
+}
+
+.modal,
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+}
+
+.titulo {
+  font-size: 60px;
+  font-weight: 900;
+  color: #2271d1;
+}
+
+.botoesContainer {
+  display: flex;
+  justify-content: space-between;
 }
